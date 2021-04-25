@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "neon-polymer-366-tfstate"
     prefix = "env/dev"
   }
 }
